@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign In View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="avp_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="andela-logo" translatesAutoresizingMaskIntoConstraints="NO" id="4fq-a6-JKk">
+                                <rect key="frame" x="45" y="175" width="230" height="63"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yvw-U7-Uvs" customClass="GIDSignInButton">
+                                <rect key="frame" x="66" y="274" width="189" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pSn-AQ-cyZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4fq-a6-JKk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="39M-8k-oEY"/>
+                            <constraint firstItem="yvw-U7-Uvs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="4mf-vy-N26"/>
+                            <constraint firstItem="4fq-a6-JKk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="CJw-Be-8Av"/>
+                            <constraint firstItem="yvw-U7-Uvs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="0.5" id="Obu-oO-Q6g"/>
+                            <constraint firstItem="yvw-U7-Uvs" firstAttribute="top" secondItem="4fq-a6-JKk" secondAttribute="bottom" constant="36" id="PTa-o0-8qm"/>
+                            <constraint firstItem="yvw-U7-Uvs" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="VIo-JN-465"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4fq-a6-JKk" secondAttribute="trailing" constant="45" id="q8v-gD-DOD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yvw-U7-Uvs" secondAttribute="trailing" constant="65" id="usb-s3-jP2"/>
+                            <constraint firstItem="4fq-a6-JKk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="155" id="yaR-fN-qv8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="103.52112676056338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="andela-logo" width="600" height="315"/>
+    </resources>
+</document>

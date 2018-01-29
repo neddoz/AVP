@@ -1,0 +1,9 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'avp_ios' do
+  pod ‘Firebase/Auth’
+  pod ‘GoogleSignIn’
+  pod ‘Firebase/Database’
+  pod ‘RxSwift‘
+end

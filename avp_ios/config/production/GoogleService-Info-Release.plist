@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>762569508132-q9hn0leht76qlij0f4b74bhjedfh3kp7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.762569508132-q9hn0leht76qlij0f4b74bhjedfh3kp7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBu6pf9g_Tp34ZVaebTz2TW62TvaJDXEW0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>762569508132</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.andela.andelavotingplatform.avp-ios</string>
+	<key>PROJECT_ID</key>
+	<string>andela-avp-b2107</string>
+	<key>STORAGE_BUCKET</key>
+	<string>andela-avp-b2107.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:762569508132:ios:eacca1ca1934de08</string>
+	<key>DATABASE_URL</key>
+	<string>https://andela-avp-b2107.firebaseio.com</string>
+</dict>
+</plist>
